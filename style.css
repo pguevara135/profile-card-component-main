@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+hr {
+    border-color: hsla(0, 0%, 59%, 0.226);
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 20px;
+    color: hsl(229, 13%, 24%);
+    font-weight: 700;
+}
+
+p {
+    font-size: 14px;
+    margin: 5px 0 20px 0;
+    color: hsl(0, 0%, 59%);
+}
+
+.container {
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.bg-top {
+    width: 978px;
+    height: 978px;
+    background-image: url(images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -410px;
+    left: -410px;
+}
+
+.bg-botton {
+    width: 978px;
+    height: 978px;
+    background-image: url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: -410px;
+    right: -410px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+.author {
+    border-radius: 20px;
+    text-align: center;
+}
+
+.bg-card {
+    min-width: 300px;
+    height: 140px;
+    border-radius: 20px 20px 0 0 ;
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picture {
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.picture img {
+    border-radius: 50%;
+}
+
+.name {
+    margin-top: 70px;
+    font-weight: 700;
+    font-size: 22px;
+    color: hsl(227, 12%, 23%);
+}
+
+.name span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    margin-left: 3px;
+}
+
+.city {
+    margin: 10px 0 20px 0;
+    color: hsl(0, 0%, 59%);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
